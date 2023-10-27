@@ -10,7 +10,7 @@
   let benefits = [
     {name: 'a problem solver', description: 'As a software engineer, my problem-solving skills shine in developing elegant and efficient solutions. I love to dissect complex technical issues, devising creative and robust solutions that not only meet the immediate needs but also stand the test of time. '},
     {name: 'a tech fanatic', description: 'I\'m on a perpetual journey of discovery in the ever-evolving world of coding and technology. I\'m fueled by an insatiable curiosity and a genuine passion for innovation. I love exploring the latest technologies and coding trends, and seeing how they can be used to increase my efficiency as an engineer. I embrace the thrill of diving into the unknown, eagerly absorbing new knowledge, and translating it into creative solutions. '},
-    {name: 'a Collaborative Communicator', description: 'I believe that effective communication is the cornerstone of successful teamwork. I\'m adept at articulating ideas, actively listening to my team members, and fostering open and constructive dialogue. Whether it\'s conveying complex technical concepts in a clear and relatable manner or contributing to group discussions with enthusiasm, I\'m committed to ensuring that the team operates cohesively and efficiently.'},
+    {name: 'a collaborative communicator', description: 'I believe that effective communication is the cornerstone of successful teamwork. I\'m adept at articulating ideas, actively listening to my team members, and fostering open and constructive dialogue. Whether it\'s conveying complex technical concepts in a clear and relatable manner or contributing to group discussions with enthusiasm, I\'m committed to ensuring that the team operates cohesively and efficiently.'},
   ]
 </script>
 
@@ -36,7 +36,7 @@
   </section>
   <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24'>
     
-    <div class='flex flex-col gap-2 text-center'>
+    <div class='flex flex-col gap-2 text-center delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0' data-taos-offset='300'>
       <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4'>Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
       <iframe class='mx-auto' width="560" height="315" src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -44,7 +44,7 @@
       <i class='fa-regular fa-circle-play'></i>
       <p>Watch the video</p>
     </a> -->
-    <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl'>
+    <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl duration-[300ms] taos:[transform:perspective(2500px)_rotateX(-100deg)] taos:invisible taos:[backface-visibility:hidden] [animation-iteration-count:infinite]' data-taos-offset="200">
       Here's some of my <span class='poppins text-violet-400'>Featured</span> work
     </h3>
     <div class='grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10'>
@@ -64,13 +64,13 @@
   <!-- <section id='articles' class='py-20 lg:py-32 flex flex-col gap-24'>
   </section> -->
   <section id='about' class='py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative'>
-    <div class='flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4'>
-      <h3 class='font-semibold text-3xl sm:text-4xl md:text-5xl'>A bit <span class='poppins text-violet-400'>about</span> me</h3>
+    <div class='flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 before:delay-[300ms] before:duration-[600ms] before:taos:translate-x-[-100%] before:taos:invisible after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4 after:delay-[300ms] after:duration-[600ms] after:taos:translate-x-[100%] after:taos:invisible [animation-iteration-count:infinite]' data-taos-offset="200">
+      <h3 class='font-semibold text-3xl sm:text-4xl md:text-5xl delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0 [animation-iteration-count:infinite]' data-taos-offset="200">A bit <span class='poppins text-violet-400'>about</span> me</h3>
     </div>
     <p class='mx-auto poppins font-semibold text-2xl sm:text-2xl md:text-4xl'>I am . . .</p>
     <div class='flex flex-col gap-20 w-full mx-auto max-w-[800px]'>
       {#each benefits as benefit, index}
-      <div class='flex gap-6 sm:gap-8'>
+      <div class='flex gap-6 sm:gap-8 delay-[100ms] duration-[600ms] taos:translate-y-[100%] taos:invisible [animation-iteration-count:infinite]' data-taos-offset="100">
         <p class='poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold'>
           0{index+1}
         </p>
