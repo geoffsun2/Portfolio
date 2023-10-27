@@ -15,7 +15,7 @@
 </script>
 
 <main class='flex flex-col flex-1 p-4'>
-  <section id='introPage' class='grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14'>
+  <section id='introPage' class='grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 relative'>
     <div class='flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10 lg:pl-20'>
       <h2 class='font-semibold text-4xl sm:text-5xl md:text-6xl'>Hi! I'm <span class='poppins text-violet-400'>Geoff</span> Sun <br/> Full Stack <span class='poppins text-violet-400'>Developer</span> </h2>
       <p class='text-base sm:text-lg md:text-xl opacity-50'>
@@ -35,16 +35,11 @@
 
   </section>
   <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24'>
-    
-    <div class='flex flex-col gap-2 text-center delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0' data-taos-offset='300'>
+    <div class='flex flex-col gap-2 text-center delay-[300ms]'>
       <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4'>Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
-      <iframe class='mx-auto' width="560" height="315" src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe class='mx-auto' src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <!-- <a href='https://www.youtube.com/watch?v=sc08rOVBF6Y' target='_blank' class='mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200'>
-      <i class='fa-regular fa-circle-play'></i>
-      <p>Watch the video</p>
-    </a> -->
-    <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl duration-[300ms] taos:[transform:perspective(2500px)_rotateX(-100deg)] taos:invisible taos:[backface-visibility:hidden] [animation-iteration-count:infinite]' data-taos-offset="200">
+    <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl'>
       Here's some of my <span class='poppins text-violet-400'>Featured</span> work
     </h3>
     <div class='grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10'>
@@ -83,53 +78,6 @@
       </div>
       {/each}
     </div>
-    <!-- <h5 class='text-2xl sm:text-3xl font-semibold text-center poppins'>The <span class='text-violet-400 poppins'>Complete</span> Package</h5> -->
-    <!-- <div class='flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full'>
-      <table class='bg-white text-slate-700 rounded text-center'>
-        <thead class='border-b border-solid border-slate-200'>
-          <tr class=''>
-            <th/>
-            <th class='whitespace-nowrap p-2 px-4'>Candidate #1</th>
-            <th class='whitespace-nowrap p-2 px-4'>Candidate #1</th>
-            <th class='whitespace-nowrap p-2 px-4'>Candidate #1</th>
-            <th class='whitespace-nowrap p-4 px-8 bg-violet-700 text-white'>Me</th>
-          </tr>
-        </thead>
-        <tbody >
-          <tr class='border-b border-solid bordewr-slate-200'>
-            <td class='border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap'>Dedication</td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-check text-green-500'></i></td>
-          </tr>
-          <tr class='border-b border-solid bordewr-slate-200'>
-            <td class='border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap'>Critical Thinking</td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-check text-green-500'></i></td>
-          </tr>
-          <tr class='border-b border-solid bordewr-slate-200'>
-            <td class='border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap'>Interpersonal Skills</td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-check text-green-500'></i></td>
-          </tr>
-          <tr class='border-b border-solid bordewr-slate-200'>
-            <td class='border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap'>Programming ability</td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-xmark text-slate-500'></i></td>
-            <td><i class='fa-solid fa-check text-green-500'></i></td>
-          </tr>
-        </tbody>
-      </table>
-    </div> -->
-    <!-- <div class='mx-auto -mt-12 italic sm:hidden opacity-50'>
-      <p>Scroll to see more &rarr;</p>
-    </div> -->
     <p class='mx-auto poppins text-violet-400'>Thank you for reading</p>
   </section>
 </main>
