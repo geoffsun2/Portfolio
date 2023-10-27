@@ -37,8 +37,11 @@
   <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24 relative'>
     <div class='flex flex-col gap-2 text-center delay-[300ms]'>
       <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4'>Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
-      <iframe class='mx-auto' src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+      <div class='w-full relative'>
+        <iframe class='mx-auto sm:w-[560px] h-[315px]' src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      </div>
     <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl'>
       Here's some of my <span class='poppins text-violet-400' >Featured</span> work
     </h3>
