@@ -26,7 +26,7 @@
       </p>
       <a href='https://www.linkedin.com/in/geoffrey-sun' target='_blank' class='blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer'>
         <div class='absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200' />
-        <h4 class='relative z-9'>Get in touch &rarr;</h4>
+        <h4 class='relative z-9'>Connect &rarr;</h4>
       </a>
     </div>
     <div class='relative shadow-2xl grid place-items-center'>
@@ -36,13 +36,13 @@
   </section>
   <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24 relative'>
     <div class='flex flex-col gap-2 text-center delay-[300ms]'>
-      <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4'>Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
+      <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4 sm:delay-[100ms] sm:duration-[400ms] sm:taos:scale-[0.6] sm:taos:opacity-0 sm:[animation-iteration-count:infinite]' data-taos-offset="200">Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
       <div class='w-full relative'>
-        <iframe class='mx-auto sm:w-[560px] h-[315px]' src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class='mx-auto sm:w-[560px] h-[315px] sm:delay-[300ms] sm:duration-[600ms] sm:taos:translate-y-[200px] sm:taos:opacity-0' data-taos-offset="200" src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       </div>
-    <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl'>
+    <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl sm:delay-[100ms] sm:duration-[400ms] sm:taos:scale-[0.6] sm:taos:opacity-0 sm:[animation-iteration-count:infinite]' data-taos-offset="200">
       Here's some of my <span class='poppins text-violet-400' >Featured</span> work
     </h3>
     <div class='grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 ' >
