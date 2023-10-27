@@ -34,15 +34,15 @@
     </div>
 
   </section>
-  <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24'>
+  <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24 relative'>
     <div class='flex flex-col gap-2 text-center delay-[300ms]'>
       <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4'>Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
       <iframe class='mx-auto' src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <h3 class='mx-auto text-2xl sm:text-3xl md:text-4xl'>
-      Here's some of my <span class='poppins text-violet-400'>Featured</span> work
+      Here's some of my <span class='poppins text-violet-400' >Featured</span> work
     </h3>
-    <div class='grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10'>
+    <div class='grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 ' >
       <Step step={steps[0]}>
         <p>LogYard is an <strong class='text-violet-400'> open-source</strong> logging solution. It offers custom logging packages alongside a dynamic <strong class='text-violet-400'>GUI</strong> to hlep users manage, analyze, and visualize logs. LogYard's intracate filtering system for logs alongside its <strong class='text-violet-400'>customizable graphs</strong> make log management a breeze. Check out this <a class='text-blue-500 hover:underline' href='https://medium.com/@andrewclarkwagner/logyard-a-new-log-management-and-visualization-platform-for-developers-3df574575586' target='_blank'>Article</a> to read more!  </p>
       </Step>
