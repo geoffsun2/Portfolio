@@ -62,7 +62,7 @@
   <!-- <section id='articles' class='py-20 lg:py-32 flex flex-col gap-24'>
   </section> -->
   <section id='about' class='py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative'>
-    <div class='flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 before:delay-[300ms] before:duration-[600ms] before:taos:translate-x-[-100%] before:taos:invisible after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4 after:delay-[300ms] after:duration-[600ms] after:taos:translate-x-[100%] after:taos:invisible [animation-iteration-count:infinite]' data-taos-offset="200">
+    <div class='flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 sm:before:delay-[300ms] sm:before:duration-[600ms] sm:before:taos:translate-x-[-100%] sm:before:taos:invisible after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4 sm:after:delay-[300ms] sm:after:duration-[600ms] sm:after:taos:translate-x-[100%] sm:after:taos:invisible [animation-iteration-count:infinite]' data-taos-offset="200">
       <h3 class='font-semibold text-3xl sm:text-4xl md:text-5xl delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0 [animation-iteration-count:infinite]' data-taos-offset="200">A bit <span class='poppins text-violet-400'>about</span> me</h3>
     </div>
     <p class='mx-auto poppins font-semibold text-2xl sm:text-2xl md:text-4xl'>I am . . .</p>
