@@ -15,7 +15,7 @@
 </script>
 
 <main class='flex flex-col flex-1 p-4'>
-  <section id='introPage' class='grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 relative'>
+  <section id='introPage' class='grid grid-cols-1 lg:grid-cols-2 gap-10 pt-8 sm:pt-14 relative'>
     <div class='flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10 lg:pl-20 z-2'>
       <h2 class='font-semibold text-4xl sm:text-5xl md:text-6xl'>Hi! I'm <span class='poppins text-violet-400'>Geoff</span> Sun <br/> Full Stack <span class='poppins text-violet-400'>Developer</span> </h2>
       <p class='text-base sm:text-lg md:text-xl opacity-50'>
@@ -36,9 +36,9 @@
   </section>
   <section id='projects' class='py-20 lg:py-32 flex flex-col gap-24 relative'>
     <div class='flex flex-col gap-2 text-center delay-[300ms]'>
-      <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4 sm:delay-[100ms] sm:duration-[400ms] sm:taos:scale-[0.6] sm:taos:opacity-0 sm:[animation-iteration-count:infinite]' data-taos-offset="200">Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
+      <h3 class='text-2xl sm:text-3xl md:text-4xl mb-4 sm:delay-[100ms] sm:duration-[400ms] sm:taos:scale-[0.6] sm:taos:opacity-0 sm:[animation-iteration-count:infinite]' data-taos-offset="100">Check out my recent talk about <span class='poppins text-pink-400'>Bun</span>!</h3>
       <div class='w-full relative'>
-        <iframe class='mx-auto sm:w-[560px] h-[315px] sm:delay-[300ms] sm:duration-[600ms] sm:taos:translate-y-[200px] sm:taos:opacity-0' data-taos-offset="200" src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class='mx-auto sm:w-[560px] h-[315px] sm:delay-[300ms] sm:duration-[600ms] sm:taos:translate-y-[200px] sm:taos:opacity-0' data-taos-offset="300" src="https://www.youtube.com/embed/sc08rOVBF6Y?si=FChaysc6-yI1NYfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       </div>
