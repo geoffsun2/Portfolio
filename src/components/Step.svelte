@@ -8,9 +8,9 @@
   </div>
   <h3 class='font-medium text-xl sm:text-2x md:text-3xl'>{step.name}</h3>
   <slot />
-  <div class='flex-1 flex justify-between gap-4 items-center'>
+  <div class='flex-1 flex justify-between gap-4 items-center lg:items-end'>
     <div class='ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:bg-white after:z-[-1] overflow-hidden'>
-      <p class='relative z-4'>Learn More &rarr;</p>
+      <p class=' z-4'>Learn More &rarr;</p>
     </div>
   </div>
 </a>

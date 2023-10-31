@@ -2,9 +2,10 @@
   export let y;
 
   let tabs = [
+    {name: 'About me', link: '#about'},
     {name: 'Projects', link: '#projects'},
     // {name: 'Articles', link: '#articles'},
-    {name: 'About me', link: '#about'},
+    
   ]
 </script>
 
