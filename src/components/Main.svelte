@@ -4,7 +4,7 @@
   let steps =[
     {name: 'LogYard', icon: '/images/Icon.png', href:'https://www.logyard.io'},
     {name: 'PassPro', icon: '/images/Pass.png', href:'https://www.passpro.io'},
-    {name: 'JobJuggler', icon: '/images/NavLogo.png', href: 'https://github.com/JobJuggler/JobJuggler'},
+    {name: 'DevOverflow', icon: '/images/NavLogo.png'},
   ]
 
   let benefits = [
@@ -22,7 +22,7 @@
        (Pronounced Jeff)
       </p> -->
       <p class='text-base sm:text-lg md:text-xl lg:text-2xl my-20'>
-        My <span class='text-violet-400'>favorite tech</span> includes JavaScript, React, Node.js + Express.js, Svelte, PostgreSQL & MongoDB!
+        My <span class='text-violet-400'>favorite tech</span> includes TypeScript, React, Node.js + Express.js, Python, PostgreSQL & MongoDB!
       </p>
       <p class='text-center text-base sm:text-lg md:text-xl opacity-50'>
         Scroll to learn more <i class="fa-solid fa-arrow-down fa-beat ml-1" style="color: #a78bfa;"></i>
@@ -73,7 +73,8 @@
 
       </Step>
       <Step step={steps[2]}>
-        <p>JobJuggler is your new <strong class='text-violet-400'>companion</strong> in the world of job applications. Built with TypeScript, Node.js, and React/Redux, JobJuggler helps you seemlessly <strong class='text-violet-400'>manage</strong> your job search status, applications, and interviews all in one place. An <strong class='text-violet-400'>organized</strong> job hunt is a <strong class='text-violet-400'>successful</strong> job hunt. Use JobJuggler to help <strong class='text-violet-400'>advance</strong> your career.</p>
+        <p> DevOverflow matches <strong class='text-violet-400'>developers</strong> with non-technical <strong class='text-violet-400'>startups</strong> to build awesome products. I am currently working on a stealth startup in the <strong class='text-violet-400'>FinTech industry</strong> that notifies subscribers when new banking circulars are published for different banks around the world. It is built with <strong class='text-violet-400'>React</strong> on the frontend and <strong class='text-violet-400'>Python</strong> to perform the automated web scraping in combination with our <strong class='text-violet-400'>AWS infrastructure</strong> . Stay tuned for more details in the future!
+        </p>
 
       </Step>
     </div>
