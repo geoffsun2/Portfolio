@@ -73,7 +73,7 @@
 
       </Step>
       <Step step={steps[2]}>
-        <p> DevOverflow matches <strong class='text-violet-400'>developers</strong> with non-technical <strong class='text-violet-400'>startups</strong> to build awesome products. I am currently working on a stealth startup in the <strong class='text-violet-400'>FinTech industry</strong> that notifies subscribers when new banking circulars are published for different banks around the world. It is built with <strong class='text-violet-400'>React</strong> on the frontend and <strong class='text-violet-400'>Python</strong> to perform the automated web scraping in combination with our <strong class='text-violet-400'>AWS infrastructure</strong> . Stay tuned for more details in the future!
+        <p> DevOverflow matches <strong class='text-violet-400'>developers</strong> with non-technical <strong class='text-violet-400'>startups</strong> to build awesome products. I am currently working on a stealth startup in the <strong class='text-violet-400'>FinTech industry</strong> that automates web scraping tools for their clients. It is built with <strong class='text-violet-400'>React</strong> on the frontend and <strong class='text-violet-400'>Python</strong> to perform the automated web scraping in combination with our <strong class='text-violet-400'>AWS infrastructure</strong> . Stay tuned for more details in the future!
         </p>
 
       </Step>
